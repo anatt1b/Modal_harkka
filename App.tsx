@@ -11,7 +11,7 @@ export default function App() {
       <Modal
         visible={isModalVisible}
         transparent={true}    // ei peitä koko ruutua
-        animationType="fade" // modal tulee alhaalta ylös
+        animationType="fade" // modal häivyttyy näkyviin
         onRequestClose={() => setIsModalVisible(false)} // Androidin back-nappi sulkee modalin
       >
         {/* Tumma tausta modalin takana */}
